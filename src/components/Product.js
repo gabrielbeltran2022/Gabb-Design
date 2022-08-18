@@ -13,11 +13,6 @@ export default function Product({productProp}){
 
 
 	
-	
-
-
-
-
 	const {pictures,_id,product}  = productProp
 
 	return(

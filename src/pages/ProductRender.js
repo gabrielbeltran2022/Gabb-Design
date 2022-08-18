@@ -16,24 +16,10 @@ export default function ProductRender(){
 
 	useEffect(() => {
 
-		fetch('https://gabbydesign.herokuapp.com/all-product')
+		fetch('https://gabbydesign.herokuapp.com/products/all-product')
 		.then(res => res.json())
 		.then(data => {
 			
-
-
-				
-
-
-
-
-		
-
-
-
-
-
-
 
 
 			setFeatured(data.map(featured => {
