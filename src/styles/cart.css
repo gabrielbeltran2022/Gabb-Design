@@ -1,0 +1,179 @@
+.cart-container{
+	width: 100%;
+	margin-bottom: 10px;
+	display: flex;
+	justify-content: center;
+	margin-top: 20px;
+}
+
+.cart-mylist{
+	font-size: 45px;
+	padding-left: 40px;
+	font-family: 'Staatliches', cursive;
+	letter-spacing: 5px;
+
+}
+
+
+
+.cart-body{
+	box-shadow: 0 0 5px #000000;
+	height: auto;
+	padding: 10px;
+
+}
+
+.cart-list{
+	
+	width: 60rem;
+	margin: 10px;
+	display: flex;
+
+}
+
+.cart-remove{
+	
+	text-align: right;
+}
+
+.cart-remove button{
+	
+	margin-top: 2px;
+	padding: 5px;
+	background-color: darkred;
+	color: whitesmoke;
+	border-radius: 7px;
+	cursor: pointer;
+}
+.cart-purchase-btn{
+	text-align: right;
+
+}
+.cart-purchase-btn button{
+	margin-bottom: 10px;
+	margin-right: 34px;
+	padding: 10px;
+	padding-left: 30px;
+	padding-right: 30px;
+	background-color: green;
+	color: whitesmoke;
+	border-radius: 7px;
+	cursor: pointer;
+	font-size: 15px;
+
+}
+
+.cart-price{
+	font-family: Kanit;
+	font-size: 27px;
+	padding-bottom: 10px;
+	
+	margin-left: 10px;
+
+
+}
+.cart-quantity{
+	font-family: Kanit;
+	font-size: 27px;
+	padding-bottom: 10px;
+	margin-right: 10px;
+
+}
+
+.cart-price-info{
+	text-align: center;
+	margin-left: 1rem;
+	margin-right: 1rem;
+	padding-left: 10px;
+}
+
+.cart-price-info h3{
+	font-family: Kanit;
+	border: 1px solid black;
+}
+
+
+.cart-info span{
+	font-size: 25px;
+	padding: 7px;
+	font-family: Kanit;
+
+
+}
+
+
+
+.cart-recipe{
+	margin-top: 20px;
+	height: auto;
+	width: 100%;
+	border-bottom: 1px solid black;
+	display: flex;
+	justify-content: space-around;
+	font-family: Kanit;
+	margin-bottom: 10px;
+
+
+}
+
+.cart-image{
+	height: 178px;
+	width: 160px;
+	margin-right: 20px;
+	border: 1px solid black;
+
+
+}
+
+.cart-title{
+		font-family: Kanit;
+		font-size: 26px;
+}
+
+.cart-description{
+	font-family: Kanit;
+	font-size: 20px;
+}
+
+.cart-btn{
+	margin-top: 10px;
+	padding: 8px;
+	background-color: black;
+	color: whitesmoke;
+	border-radius: 7px;
+	cursor: pointer;
+
+}
+
+.cart-info{
+	font-size: 15px;
+	text-align: justify;
+	width: 60%;
+}
+
+.cart-total{
+	margin-left: 14rem;
+}
+
+.cartEmpty {
+	height: 47vh;
+	
+	position: relative;
+	margin: 20px;
+}
+
+.cartEmpty h1{
+	font-family: Kanit;
+	font-size: 30px;
+	margin-top: 30px;
+}
+
+
+
+.cartEmpty a{
+	font-family: Kanit;
+	font-size: 25	px;
+	margin-top: 30px;
+	list-style-type: none;
+	
+}

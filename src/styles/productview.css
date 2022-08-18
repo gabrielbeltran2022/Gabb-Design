@@ -1,0 +1,60 @@
+.productview-container{
+	display: flex;
+	justify-content: space-evenly;
+	height: 80vh;
+	width: 100%;
+}
+
+.productview-image img{
+	height: 450px;
+	width: 450px;
+	border: 1px solid black;
+	
+}
+
+.productview-info{
+	width: 30rem;
+}
+
+
+.productview-info h1{
+	font-size: 55px;
+	font-family: 'Staatliches', cursive;
+	letter-spacing: 3px;
+	
+}
+
+.productview-info h2{
+	font-size: 30px;
+	font-family: 'Staatliches', cursive;
+	letter-spacing: 3px;
+}
+
+.productview-info h3{
+	margin-top: 10px;
+	font-size: 20px;
+	font-family: 'Staatliches', cursive;
+	letter-spacing: 1px;
+}
+.productview-info p{
+	margin-top: 6px;
+	margin-bottom: 15px;
+	font-size: 20px;
+	letter-spacing: 1px;
+}
+
+.productview-info-btn button{
+	padding: 10px;
+	margin-right: 5px;
+	font-size: 15px;
+	color: whitesmoke;
+	background-color: black;
+	border-radius: 10px;
+	cursor: pointer;
+}
+
+.productview-info-btn button:hover{
+	background-color: whitesmoke;
+	color: black;
+	border: 2px solid black ;
+}

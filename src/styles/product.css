@@ -1,0 +1,56 @@
+
+.product-header{
+	text-align: center;
+	font-family: 'Staatliches', cursive;
+	font-size: 3rem;
+	letter-spacing: 1px;
+	position: relative;
+	font-size: 50 	px;
+}
+
+
+.product-body{
+	display: grid;
+	grid-template-columns: repeat(4, 1fr);
+	width: 100%;
+}
+
+
+
+
+.product-card-icon{
+	margin: 20px;
+	width: 250px;
+	margin-bottom: 3px;
+	background-color: black;
+	border-radius: 25px;
+}
+
+.product-image{
+	height: 350px;
+	width: 240px;
+	margin-top: 5px;
+	margin-left: 5px;
+	transition: all 1s;
+	box-shadow: 0 0 5px #000000;
+	border-radius: 20px;	
+}
+
+.product-image:hover{
+	transform:  scale(1.05);
+}
+
+.product-card-icon h1{
+	color: black;
+	font-size: 23px;
+	position: relative;
+	margin-top: 5px;
+	justify-content: center;
+	display: flex;
+	z-index: 1;
+	font-family: 'Staatliches', cursive;
+	text-align: center;
+	color: whitesmoke;
+	letter-spacing: 1px;
+}
+

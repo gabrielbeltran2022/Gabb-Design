@@ -1,0 +1,119 @@
+.about-body{
+	display: flex;
+	margin: 10px;
+}
+
+.about-body h1{
+	align-items: center;
+}
+
+
+.about-body img{
+	height: 300px;
+	width: 350px;
+	margin: 5px;
+}
+
+.about-body p{
+	margin: 5px;
+	letter-spacing: 1px;
+	text-align: justify;
+	width: 100%;
+	font-family: sans-serif;
+}
+
+
+.about-mission h1{
+	text-align: center;
+	margin-bottom: 30px;
+	font-size: 40px;
+	font-family: 'Staatliches', cursive;
+	letter-spacing: 1px;
+}
+.our-mission-container{
+	display: flex;
+	margin: 10px;
+
+}
+
+.our-mission{
+	margin-top: 100px;
+}
+
+.our-mission h1{
+	font-family: 'Staatliches', cursive;
+	letter-spacing: 2px;
+	font-size: 40px;
+	margin-left: 3rem;
+
+}
+
+
+.our-mission-body img{
+	margin-right: 2rem;
+	margin-left: 10px	;
+	height: 430px;
+	width: 550px;
+
+}
+
+.our-mission p{
+	margin-left: 3rem;
+	margin-right: 1rem;
+	text-align: justify;
+	font-family: sans-serif;
+	font-size: 20px;
+	text-align: justify;
+}
+
+.our-mission-body-2 img{
+	margin-right: 1rem;
+	margin-left: 10px	;
+	height: 330px;
+	width: 650px;
+}
+
+
+.our-mission-table{
+	margin-top: 100px;
+}
+
+.our-mission-header{
+	font-family: 'Staatliches', cursive;
+	letter-spacing: 2px;
+	font-size: 40px;
+	margin-left: 3rem;
+
+}
+
+ul li{
+	
+	margin-right: 2rem;
+	font-family: sans-serif;
+	font-size: 20px;
+	
+}
+.our-mission-3{
+	margin-top: 50px;
+	margin-bottom: 60px;
+}
+
+.our-mission-3 h1{
+
+	font-family: 'Staatliches', cursive;
+	letter-spacing: 2px;
+	font-size: 40px;
+	margin-left: 1rem;
+
+}
+
+
+.our-mission-3 p{
+
+	margin-left: 3rem;
+	margin-right: 1rem;
+	text-align: justify;
+	font-family: sans-serif;
+	font-size: 16px;
+	text-align: justify;
+}
