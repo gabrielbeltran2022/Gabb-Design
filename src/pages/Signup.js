@@ -52,7 +52,7 @@ const {user, setUser} = useContext(UserContext)
 				})
 			}else{
 
-				fetch('http://localhost:4000/users/register', {
+				fetch('https://gabbydesign.herokuapp.com/users/register', {
 					method: "POST",
 					headers:{
 						'Content-Type': "application/json"

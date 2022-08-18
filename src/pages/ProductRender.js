@@ -1,7 +1,6 @@
 import Product from '../components/Product'
 import ProductView from './ProductView'
 import Featured from '../components/Featured'
-import Men from '../components/Men'
 import Footer from './Footer'
 
 import {Fragment,useEffect, useState} from 'react'
@@ -17,7 +16,7 @@ export default function ProductRender(){
 
 	useEffect(() => {
 
-		fetch('http://localhost:4000/products/all-product')
+		fetch('https://gabbydesign.herokuapp.com/all-product')
 		.then(res => res.json())
 		.then(data => {
 			
