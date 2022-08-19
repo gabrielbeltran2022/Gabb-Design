@@ -229,7 +229,7 @@ useEffect(() => {
 		      			</div>
 
 				</Form>
-
+				
 				<div className="signup-image">
 				<img src="/images/shoes.jpg" className="shoes-image"/>
 		      </div>
