@@ -130,10 +130,9 @@ useEffect(() => {
 				
 				
 	<Form className="sign-form" onSubmit={(e)=> registerUser(e)}>
-		<div className="title">Sign Up</div>
 	 		<div className="user-details">
-	 		
-	 		
+	 		<div className="title">Sign Up</div>
+
 
 			<Form.Group className="firstName mb-3" controlId="firstName">
 		        <Form.Label>First Name </Form.Label>
@@ -229,7 +228,7 @@ useEffect(() => {
 		      			</div>
 
 				</Form>
-				
+
 				<div className="signup-image">
 				<img src="/images/shoes.jpg" className="shoes-image"/>
 		      </div>
