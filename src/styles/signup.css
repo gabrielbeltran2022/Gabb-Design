@@ -1,6 +1,6 @@
 .signup-container{
 	display: flex;
-	height: 85vh;
+	height: 90vh;
 	padding-left: 80px;
 	position: relative;
 	justify-content: space-around;
@@ -21,7 +21,7 @@
 
 
 .sign-form{
-	border: 2px solid black;
+	
 	height: 80vh;
 	width: 420px;
 	padding: 30px;
