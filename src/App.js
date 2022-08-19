@@ -13,9 +13,10 @@ import Signup from './pages/Signup'
 import NotFound from './pages/NotFound'
 import About from './pages/About'
 import Male from './pages/Male'
-// import Female from './pages/Female'
+import Female from './pages/Female'
 import ProductRender from './pages/ProductRender'
 import ProductView from './pages/ProductView'
+import Contact from './pages/Contact'
 import {UserProvider} from './userContext'
 
 
@@ -87,13 +88,14 @@ function App() {
             <Route path="/all-product" element={<ProductRender/>}/>
             <Route path="/product/:productId" element={<ProductView/>}/>
             <Route path="/login" element={<Login/>}/>
-              <Route path="/logout" element={<Logout/>}/>
-               <Route path="*" element={<NotFound/>}/>
+            <Route path="/logout" element={<Logout/>}/>
+            <Route path="*" element={<NotFound/>}/>
             <Route path="/signup" element={<Signup/>}/>
             <Route path="/my-cart" element={<CartRender/>}/>
             <Route path="/About" element={<About/>}/>
             <Route path="/male" element={<Male/>}/>
-          
+            <Route path="/female" element={<Female/>}/>
+             <Route path="/contact" element={<Contact/>}/>
            </Routes>
         
           </Container>

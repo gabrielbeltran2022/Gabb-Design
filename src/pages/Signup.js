@@ -132,6 +132,8 @@ useEffect(() => {
 	<Form className="sign-form" onSubmit={(e)=> registerUser(e)}>
 		<div className="title">Sign Up</div>
 	 		<div className="user-details">
+	 		
+	 		
 
 			<Form.Group className="firstName mb-3" controlId="firstName">
 		        <Form.Label>First Name </Form.Label>

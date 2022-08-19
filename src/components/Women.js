@@ -5,12 +5,12 @@ import '../styles/male.css'
 
 
 
-export default function Women({femaleProp}){
+export default function Women({womenProp}){
 
 
 
 
-	const {pictures,_id,product} = femaleProp
+	const {pictures,_id,product} = womenProp
 
 	return (
 

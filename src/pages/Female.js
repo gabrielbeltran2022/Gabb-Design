@@ -1,5 +1,9 @@
 import Women from '../components/Women'
 import Footer from './Footer'
+import { Link } from 'react-router-dom'
+import '../styles/featured.css'
+import '../styles/product.css'
+
 import {Fragment,useEffect, useState} from 'react'
 
 
@@ -9,7 +13,11 @@ export default function Female(){
 
 
 
-	const [female, setFemale] = useState([])
+	
+
+	
+
+	const [women, setWomen] = useState([])
 
 	
 
@@ -19,14 +27,14 @@ export default function Female(){
 		.then(res => res.json())
 		.then(data => {
 
-			setFemale(data.map(female => {
-				if(female.category === "Female"){
+			setWomen(data.map(women => {
+				if(women.category === "Female"){
 
-				
+					
 					
 					return(
 
-						<Female key={female._id} femaleProp={female} />
+						<Women key={women._id} womenProp={women} />
 
 						)
 				
@@ -52,7 +60,7 @@ export default function Female(){
 			 <div>
 				<h1 className="product-header">Female Product</h1>
 					<div className="product-body">
-					{female}
+					{women}
 					</div>
 					 <Footer/>
 			</div>

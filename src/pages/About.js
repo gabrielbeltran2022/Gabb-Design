@@ -1,4 +1,5 @@
 import '../styles/about.css'
+
 import Footer from './Footer'
 
 

@@ -1,3 +1,4 @@
+
 .n-container{
 	height: 35px;
 	padding: 7px;
@@ -87,6 +88,7 @@
 	padding: 2px;
 	border-radius: 4px;
 	transition: all .7s;
+	
 
 }
 
@@ -100,6 +102,7 @@
 	right: 23px;
 	border-radius: 50px;
 	z-index: -1;
+
 
 
 }

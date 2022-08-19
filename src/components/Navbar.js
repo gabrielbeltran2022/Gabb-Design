@@ -40,7 +40,7 @@ export default function Navbar({add}){
 						<ul className="items">
 							<Link  to="/male"><li>MEN</li></Link>
 							<Link  to="/female"><li>WOMEN</li></Link>
-							<Link  to="/brands"><li>CONTACT</li></Link>
+							<Link  to="/contact"><li>CONTACT</li></Link>
 							<Link  to="/About"><li>ABOUT US</li></Link>
 							<Link  to="/all-product"><li>PRODUCT</li></Link>
 						</ul>

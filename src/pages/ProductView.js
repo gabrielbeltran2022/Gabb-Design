@@ -2,6 +2,7 @@ import { Navigate} from 'react-router-dom'
 import{useState, useEffect, useContext} from 'react'
 import {useParams, useNavigate, Link} from 'react-router-dom'
 import UserContext from '../userContext'
+import Swal from 'sweetalert2'
 import '../styles/productview.css'
 
 
@@ -45,13 +46,10 @@ export default function ProductView({add}){
 
 			.then(res => res.json())
 			.then(data => {
-				console.log(data)
-
 
 				add()
 
-
-
+				
 
 
 			})
